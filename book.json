@@ -1,0 +1,67 @@
+{
+    "title" : "给新手的直流电机PID控制实战指南",
+	"author": "宋一标",
+    "description": "一本面向初学新手、内容通俗易懂、操作步骤详细的直流电机PID控制实战指南。",
+	"language" : "zh-hans",
+	"styles": {
+    "website": "styles/website.css"
+    },
+	"links" : {
+		"sidebar" : {
+			"给新手的直流电机PID控制实战指南" : "https://m.miaowlabs.com/"
+		}
+    },
+	"plugins": [
+		"-search",
+		"-highlight",
+		"splitter",
+		"back-to-top-button",
+		"copy-code-button",
+		"prism",
+		"include-codeblock",
+		"ace",
+		"katex",
+		"image-captions",
+		"popup",
+		"fontsettings",
+		"theme-comscore",
+		"multipart",
+		"search-plus",
+		"anchor-navigation-ex",
+		"simple-mind-map"
+    ],
+    "pluginsConfig": {
+		"theme-default": {
+			"showLevel": true
+		},
+        "prism": {
+            "css": [
+                "prismjs/themes/prism-tomorrow.css"				
+            ]			
+        },	
+		"include-codeblock": {
+            "template": "ace",
+            "unindent": true,
+            "theme": "monokai",
+			"edit": true
+        },
+		"fontsettings": {
+            "theme": "white", 
+            "family": "sans", 
+            "size": 2        
+		},
+		"image-captions": {
+			"caption": "Image _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_"
+		},
+		"anchor-navigation-ex": {
+            "showLevel": false
+        },
+		"simple-mind-map": {
+            "type": "markdown",
+            "preset": "colorful",
+			"autoFit": true
+        }
+    }
+}
+
+
